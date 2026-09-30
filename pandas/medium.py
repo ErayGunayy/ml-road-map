@@ -11,6 +11,7 @@ data = {
 df = pd.DataFrame(data)
 
 
+
 #Notu 80 üzerindeki öğrencileri getir.
 
 print(df[df["Grade"] > 80])
